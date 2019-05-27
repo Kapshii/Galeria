@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Panel" maxHeight="1080.0" maxWidth="1920.0" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imageStartUP" accessibleRole="BUTTON" nodeOrientation="INHERIT" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../resource/bgd/3.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="150.0" fitWidth="153.0" layoutX="885.0" layoutY="465.0" nodeOrientation="INHERIT" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../resource/img/home/1.png" />
+         </image>
+         <effect>
+            <Blend>
+               <bottomInput>
+                  <ImageInput />
+               </bottomInput>
+            </Blend>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
